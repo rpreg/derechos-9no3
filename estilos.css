@@ -104,3 +104,10 @@ footer {
 .multimedia h2 { color: #173b57; }
 .espacio-multimedia { background-color: #e3f0f4; border: 2px dashed #247f9b; border-radius: 10px; min-height: 220px; padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #173b57; }
 .espacio-multimedia p { margin: 6px 0; }
+
+.video-responsive {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Mantiene la proporción panorámica automáticamente */
+  height: auto;
+  display: block;
+}
