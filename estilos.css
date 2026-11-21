@@ -1,0 +1,106 @@
+/* Estilos generales del sitio */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef4f6;
+  color: #20313b;
+  line-height: 1.6;
+}
+header {
+  background-color: #173b57;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+header h1 {
+  margin: 8px 0;
+  font-size: 38px;
+}
+header p { max-width: 720px; margin: 8px auto; }
+.etiqueta { color: #f5d36b; font-size: 13px; font-weight: bold; letter-spacing: 2px; }
+nav {
+  background-color: #f2ce62;
+  padding: 13px;
+  text-align: center;
+}
+nav a {
+  color: #173b57;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+}
+main { max-width: 1050px; margin: 25px auto; padding: 0 18px; }
+h1, h2, h3 { line-height: 1.2; }
+.introduccion, .cierre {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 6px solid #26a6a1;
+  margin-bottom: 30px;
+}
+.aviso { color: #52636c; font-size: 14px; }
+.titulo-seccion { color: #173b57; margin-bottom: 18px; }
+.tarjetas { display: flex; flex-wrap: wrap; gap: 20px; }
+.tarjeta {
+  background-color: white;
+  border: 1px solid #d4e0e5;
+  border-radius: 10px;
+  padding: 15px;
+  width: 210px;
+  flex-grow: 1;
+}
+.tarjeta > a { text-decoration: none; }
+.portada {
+  min-height: 175px;
+  padding: 17px;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.portada span { font-size: 14px; font-weight: bold; }
+.portada h3 { font-size: 24px; margin: 18px 0 5px; }
+.portada p { margin: 0; }
+.educacion { background-color: #247f9b; }
+.diversidad { background-color: #287c70; }
+.igualdad { background-color: #735c9b; }
+.expresion { background-color: #bd7735; }
+.tarjeta > p { font-size: 15px; }
+.leer, .volver { color: #176d7c; font-weight: bold; text-decoration: none; }
+.cierre { margin-top: 30px; border-left-color: #f2ce62; }
+.contenido {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+.contenido h2 { color: #176d7c; }
+.norma {
+  background-color: #eaf5f5;
+  padding: 18px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.norma a { color: #145c70; font-weight: bold; }
+.ejemplo { background-color: #fff7df; padding: 18px; border-radius: 8px; margin-top: 18px; }
+footer {
+  background-color: #173b57;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: 35px;
+}
+/* Adaptación para pantallas pequeñas */
+@media (max-width: 600px) {
+  header h1 { font-size: 30px; }
+  nav a { display: inline-block; margin: 5px 8px; }
+  .tarjeta { width: 100%; }
+  .introduccion, .contenido, .cierre { padding: 17px; }
+}
+
+/* Espacio reservado para videos, audios u otros materiales */
+.multimedia { margin-bottom: 28px; }
+.multimedia h2 { color: #173b57; }
+.espacio-multimedia { background-color: #e3f0f4; border: 2px dashed #247f9b; border-radius: 10px; min-height: 220px; padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #173b57; }
+.espacio-multimedia p { margin: 6px 0; }
